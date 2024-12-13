@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.todolist.TodoListApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-07T14:30:24" hostname="DESKTOP-5FMGMIE" time="0.649">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.todolist.TodoListApplicationTests" time="0.649"/>
+  <system-out><![CDATA[15:30:22.067 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.todolist.TodoListApplicationTests]: TodoListApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:30:22.201 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.todolist.TodoListApplication for test class com.example.todolist.TodoListApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2024-12-07T15:30:23.262+01:00  INFO 18560 --- [    Test worker] c.e.todolist.TodoListApplicationTests    : Starting TodoListApplicationTests using Java 22.0.1 with PID 18560 (started by vital in D:\javafiles\todo-list)
+2024-12-07T15:30:23.265+01:00  INFO 18560 --- [    Test worker] c.e.todolist.TodoListApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-12-07T15:30:24.626+01:00  INFO 18560 --- [    Test worker] c.e.todolist.TodoListApplicationTests    : Started TodoListApplicationTests in 2.224 seconds (process running for 3.577)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\vital\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.4\3bf5ac1104554908cc623e40e58a00be37c35f36\byte-buddy-agent-1.14.4.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
